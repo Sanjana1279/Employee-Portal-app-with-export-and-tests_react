@@ -1,7 +1,6 @@
-```markdown
 # Employee Portal React App
 
-This is a React-based Employee Portal web application that manages employee records. It supports adding, displaying, and removing employee data, along with options to export employee data in Excel, PDF, and CSV formats.
+This is a React-based Employee Portal web application that manages employee records. It supports adding, displaying, and removing employee data, along with options to export employee data in Excel, PDF, and CSV formats.A simple **React.js** application to manage employee records, featuring add, remove, and export functionalities. Users can export employee data in **Excel, PDF, and CSV** formats. The project also includes **unit tests** with Jest and React Testing Library.
 
 ## Features
 
@@ -10,6 +9,14 @@ This is a React-based Employee Portal web application that manages employee reco
 - Export employee data as Excel, PDF, and CSV files
 - Robust error handling with React Error Boundary
 - Responsive and user-friendly UI
+- 
+## **Screenshots**
+
+<img width="1803" height="797" alt="image" src="https://github.com/user-attachments/assets/47c73a75-dbbd-455f-ab52-22ccabb0fa69" />
+
+<img width="1900" height="442" alt="image" src="https://github.com/user-attachments/assets/3422b82c-8d67-4310-8689-7f22de006cc7" />
+
+---
 
 ## Tech Stack
 
@@ -21,14 +28,7 @@ This is a React-based Employee Portal web application that manages employee reco
 
 ## Installation
 
-1. Clone the repository:
-
-```
-git clone https://github.com/<your-github-username>/<repository-name>.git
-cd <repository-name>
-```
-
-2. Install dependencies:
+1. Install dependencies:
 
 ```
 npm install
@@ -36,12 +36,11 @@ npm install
 yarn install
 ```
 
-3. Start development server:
+2. Start development server:
 
 ```
 npm start
-# or
-yarn start
+
 ```
 
 ## Running Tests and Coverage
@@ -65,11 +64,3 @@ Testing involves the current project as well as extensive tests implemented in t
 MIT License
 ```
 
-Replace `<your-github-username>` and `<repository-name>` accordingly.
-
-
-[5](https://www.geeksforgeeks.org/git/github-relative-link-in-markdown-file/)
-[6](https://docs.github.com/articles/configuring-autolinks-to-reference-external-resources)
-[7](https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/autolinked-references-and-urls)
-[8](https://www.linkedin.com/pulse/github-readmemd-how-add-link-billour-ou)
-[9](https://www.reddit.com/r/github/comments/1dk3h3r/external_hyperlinks/)
