@@ -1,70 +1,75 @@
-# Getting Started with Create React App
+```markdown
+# Employee Portal React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a React-based Employee Portal web application that manages employee records. It supports adding, displaying, and removing employee data, along with options to export employee data in Excel, PDF, and CSV formats.
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+- Add employees with name, username, and salary
+- Display employee list in a table with remove functionality
+- Export employee data as Excel, PDF, and CSV files
+- Robust error handling with React Error Boundary
+- Responsive and user-friendly UI
 
-### `npm start`
+## Tech Stack
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- React.js with functional components and hooks
+- jsPDF and jsPDF-Autotable for PDF export
+- XLSX (SheetJS) for Excel export
+- react-csv for CSV export
+- Jest and React Testing Library for unit tests
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Installation
 
-### `npm test`
+1. Clone the repository:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+```
+git clone https://github.com/<your-github-username>/<repository-name>.git
+cd <repository-name>
+```
 
-### `npm run build`
+2. Install dependencies:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+```
+npm install
+# or
+yarn install
+```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+3. Start development server:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+```
+npm start
+# or
+yarn start
+```
 
-### `npm run eject`
+## Running Tests and Coverage
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Run unit tests with coverage report:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+```
+npm run test:coverage
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Testing involves the current project as well as extensive tests implemented in the [Employee-Portal-app-with-export-and-tests_react](https://github.com/Sanjana1279/Employee-Portal-app-with-export-and-tests_react/tree/main) repository.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Project Structure
 
-## Learn More
+- `src/components`: React components including EmployeeList, ExportButtons, and ErrorBoundary
+- `src/App.js`: Main app component managing state and layout
+- `tests`: Test files for components and integration
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## License
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+MIT License
+```
 
-### Code Splitting
+Replace `<your-github-username>` and `<repository-name>` accordingly.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+[5](https://www.geeksforgeeks.org/git/github-relative-link-in-markdown-file/)
+[6](https://docs.github.com/articles/configuring-autolinks-to-reference-external-resources)
+[7](https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/autolinked-references-and-urls)
+[8](https://www.linkedin.com/pulse/github-readmemd-how-add-link-billour-ou)
+[9](https://www.reddit.com/r/github/comments/1dk3h3r/external_hyperlinks/)
