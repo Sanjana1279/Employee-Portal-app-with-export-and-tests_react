@@ -9,7 +9,7 @@ This is a **React-based Employee Portal** web application that manages employee 
 - Export employee data as Excel, PDF, and CSV files
 - Robust error handling with React Error Boundary
 - Responsive and user-friendly UI
-- 
+ 
 ## **Screenshots**
 
 <img width="1803" height="797" alt="image" src="https://github.com/user-attachments/assets/47c73a75-dbbd-455f-ab52-22ccabb0fa69" />
