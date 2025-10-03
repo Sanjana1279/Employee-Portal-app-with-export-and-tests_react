@@ -6,18 +6,34 @@
     "@testing-library/dom": "^10.4.1",
     "@testing-library/jest-dom": "^6.9.1",
     "@testing-library/react": "^16.3.0",
-    "@testing-library/user-event": "^13.5.0",
+    "jspdf": "^3.0.3",
+    "jspdf-autotable": "^5.0.2",
     "react": "^19.2.0",
+    "react-csv": "^2.2.2",
     "react-dom": "^19.2.0",
     "react-scripts": "5.0.1",
-    "web-vitals": "^2.1.4"
+    "web-vitals": "^2.1.4",
+    "xlsx": "^0.18.5"
   },
-  "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
-  },
+ "scripts": {
+  "start": "react-app-rewired start",
+  "test": "react-app-rewired test",
+  "test:coverage": "react-app-rewired test --coverage --watchAll=false",
+  "build": "react-app-rewired build"
+}
+
+
+,"jest": {
+  "collectCoverage": true,
+  "collectCoverageFrom": [
+    "src/**/*.{js,jsx,ts,tsx}",
+    "!src/reportWebVitals.js"
+  ]
+}
+
+
+,
+  
   "eslintConfig": {
     "extends": [
       "react-app",
@@ -35,5 +51,9 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@testing-library/user-event": "^14.6.1",
+    "react-app-rewired": "^2.2.1"
   }
 }

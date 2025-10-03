@@ -1,38 +1,141 @@
-.App {
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: #f0f4f8;
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+.container {
+  max-width: 960px;
+  margin: 50px auto;
+  background: white;
+  padding: 30px 40px;
+  border-radius: 12px;
+  box-shadow: 0 6px 20px rgba(0,0,0,0.15);
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 25px;
+  color: #1a73e8;
+  font-weight: 700;
+}
+
+.employee-form {
+  display: flex;
+  gap: 15px;
+  margin-bottom: 30px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.employee-form input {
+  flex: 1 1 200px;
+  padding: 10px 15px;
+  font-size: 1rem;
+  border: 2px solid #ddd;
+  border-radius: 6px;
+  transition: border-color 0.3s ease;
+}
+
+.employee-form input:focus {
+  border-color: #1a73e8;
+  outline: none;
+}
+
+.employee-form button {
+  padding: 10px 20px;
+  font-weight: 600;
+  background-color: #1a73e8;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.employee-form button:hover {
+  background-color: #155db8;
+}
+
+.employee-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 1rem;
+}
+
+.employee-table th,
+.employee-table td {
+  padding: 12px 15px;
+  border: 1px solid #ccc;
+  text-align: left;
+}
+
+.employee-table thead tr {
+  background-color: #1a73e8;
+  color: white;
+  font-weight: 600;
+}
+
+.employee-table tbody tr:nth-child(even) {
+  background-color: #f7f9fc;
+}
+
+.btn-remove {
+  background-color: #e53935;
+  padding: 7px 14px;
+  border: none;
+  border-radius: 6px;
+  color: white;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.btn-remove:hover {
+  background-color: #b71c1c;
+}
+
+.empty-msg {
+  text-align: center;
+  font-style: italic;
+  margin: 40px 0;
+  color: #888;
+  font-size: 1.1rem;
+}
+
+.export-buttons {
+  display: flex;
+  gap: 15px;
+  margin-bottom: 40px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.btn-export {
+  padding: 12px 25px;
+  background-color: #0b79d0;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.btn-export:hover {
+  background-color: #065a9e;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.error-boundary {
+  margin: 40px auto;
+  text-align: center;
+  color: #b00020;
+  font-size: 1.3rem;
+  font-weight: 600;
 }
