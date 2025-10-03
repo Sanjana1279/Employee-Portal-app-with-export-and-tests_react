@@ -50,7 +50,6 @@ Run unit tests with coverage report:
 npm run test:coverage
 ```
 
-Testing involves the current project as well as extensive tests implemented in the [Employee-Portal-app-with-export-and-tests_react](https://github.com/Sanjana1279/Employee-Portal-app-with-export-and-tests_react/tree/main) repository.
 
 ## Project Structure
 
@@ -58,8 +57,5 @@ Testing involves the current project as well as extensive tests implemented in t
 - `src/App.js`: Main app component managing state and layout
 - `tests`: Test files for components and integration
 
-## License
 
-MIT License
-```
 
