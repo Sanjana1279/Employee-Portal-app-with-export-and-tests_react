@@ -1,6 +1,6 @@
 # Employee Portal React App
 
-This is a React-based Employee Portal web application that manages employee records. It supports adding, displaying, and removing employee data, along with options to export employee data in Excel, PDF, and CSV formats.A simple **React.js** application to manage employee records, featuring add, remove, and export functionalities. Users can export employee data in **Excel, PDF, and CSV** formats. The project also includes **unit tests** with Jest and React Testing Library.
+This is a **React-based Employee Portal** web application that manages employee records. It supports adding, displaying, and removing employee data, along with options to export employee data in **Excel, PDF, and CSV** formats. The project also includes **unit tests** with Jest and React Testing Library.
 
 ## Features
 
@@ -32,8 +32,7 @@ This is a React-based Employee Portal web application that manages employee reco
 
 ```
 npm install
-# or
-yarn install
+
 ```
 
 2. Start development server:
